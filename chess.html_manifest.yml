@@ -1,0 +1,9 @@
+applications:
+- name: chess.html
+  disk_quota: 1G
+  instances: 1
+  memory: 1G
+  routes:
+  - route: chesshtml.apps.pcfone.io
+  stack: cflinuxfs2
+  buildpack: staticfile_buildpack
